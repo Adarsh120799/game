@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+font-family: 'Pacifico', cursive;
+}
+body{
+  margin:0px;
+  padding:0px;
+  
+  background-image: linear-gradient( -28deg, #edf05f 0%, #f1d430 60%, #854f45 60%, #383535 60%);
+}
+.heading h1{
+  text-align: center;
+  font-size: 6rem;
+  color:white;
+  font-family: 'Pacifico', cursive;
+
+}
+.gamearea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  
+  /* position: relative;; */
+  
+}
+.gamearea .dice{
+  margin:0px 20px;
+  font-size: 1.5rem;
+  color:black;
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}.dice img{
+  width:150px;
+  height:200;
+ 
+   filter:grayscale(100%); 
+  
+
+}
+#play{
+  color:white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  padding:10px;
+  background-color: grey;
+  outline: none;
+  border-radius: 25px;
+  border: none;
+  background-image: linear-gradient(-90deg,grey, black);
+}#play:hover{
+  color:black;
+  height:60px;
+background: repeating-linear-gradient(
+  45deg,
+  #ebee4d,
+  rgb(228, 224, 33) 10px,
+  #f6e54a 10px,
+  #d1ce1f 20px);
+}footer {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+}
